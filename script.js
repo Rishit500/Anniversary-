@@ -136,3 +136,22 @@ document.getElementById("startBtn").addEventListener("click",()=>{
     });
 
 });
+// ===============================
+// Premium Hero Button
+// ===============================
+
+const exploreBtn = document.getElementById("exploreBtn");
+
+if (exploreBtn) {
+
+    exploreBtn.addEventListener("click", () => {
+
+        document.querySelector(".about").scrollIntoView({
+
+            behavior: "smooth"
+
+        });
+
+    });
+
+}
