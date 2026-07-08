@@ -199,3 +199,19 @@ prevBtn.addEventListener("click", ()=>{
     showPage(currentPage);
 
 });
+// ================= MUSIC =================
+
+const music = document.getElementById("bgMusic");
+const playMusicBtn = document.getElementById("playMusic");
+
+if (playMusicBtn && music) {
+
+    playMusicBtn.addEventListener("click", () => {
+
+        music.play();
+
+        playMusicBtn.innerHTML = "🎶 Playing...";
+
+    });
+
+}
