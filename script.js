@@ -156,7 +156,7 @@ if (exploreBtn) {
 
 }
 // ================= MEMORY BOOK =================
-
+console.log("Memory Book Loaded");
 const pages = document.querySelectorAll(".page");
 
 const nextBtn = document.getElementById("nextPage");
