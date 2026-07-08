@@ -155,3 +155,47 @@ if (exploreBtn) {
     });
 
 }
+// ================= MEMORY BOOK =================
+
+const pages = document.querySelectorAll(".page");
+
+const nextBtn = document.getElementById("nextPage");
+const prevBtn = document.getElementById("prevPage");
+
+let currentPage = 0;
+
+function showPage(index){
+
+    pages.forEach(page => page.classList.remove("active"));
+
+    pages[index].classList.add("active");
+
+}
+
+nextBtn.addEventListener("click", ()=>{
+
+    currentPage++;
+
+    if(currentPage >= pages.length){
+
+        currentPage = 0;
+
+    }
+
+    showPage(currentPage);
+
+});
+
+prevBtn.addEventListener("click", ()=>{
+
+    currentPage--;
+
+    if(currentPage < 0){
+
+        currentPage = pages.length - 1;
+
+    }
+
+    showPage(currentPage);
+
+});
