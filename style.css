@@ -579,3 +579,162 @@ font-size:18px;
 }
 
 }
+/* ================= MEMORY BOOK ================= */
+
+.memoryBook{
+    width:100%;
+    max-width:1100px;
+    margin:120px auto;
+    text-align:center;
+    padding:20px;
+}
+
+.bookTitle{
+    font-size:50px;
+    color:#ffffff;
+    margin-bottom:10px;
+}
+
+.bookSubtitle{
+    color:#f8eaff;
+    font-size:20px;
+    margin-bottom:60px;
+}
+
+.book{
+    display:flex;
+    justify-content:center;
+}
+
+.page{
+    display:none;
+    animation:fade .8s;
+}
+
+.page.active{
+    display:block;
+}
+
+.page img{
+
+    width:420px;
+    height:520px;
+
+    object-fit:cover;
+
+    border:15px solid white;
+
+    border-bottom:70px solid white;
+
+    border-radius:12px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.35);
+
+    transition:.4s;
+}
+
+.page img:hover{
+    transform:scale(1.03) rotate(-1deg);
+}
+
+.page h3{
+
+    margin-top:35px;
+
+    color:white;
+
+    font-size:34px;
+
+}
+
+.page p{
+
+    width:80%;
+
+    max-width:650px;
+
+    margin:20px auto;
+
+    line-height:1.9;
+
+    font-size:20px;
+
+    color:#ffffff;
+
+}
+
+.textOnly{
+
+    width:700px;
+
+    margin:auto;
+
+    background:white;
+
+    color:#444;
+
+    padding:50px;
+
+    border-radius:25px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.25);
+
+}
+
+.textOnly h3{
+
+    color:#ff4f8b;
+
+    font-size:36px;
+
+}
+
+.textOnly p{
+
+    color:#555;
+
+    font-size:22px;
+
+}
+
+.bookButtons{
+
+    margin-top:40px;
+
+}
+
+.bookButtons button{
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:50px;
+
+    margin:10px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
