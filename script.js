@@ -316,3 +316,84 @@ function typeLetter() {
 }
 
 typeLetter();
+// ================= YES / NO GAME =================
+
+const yesBtn = document.getElementById("yesBtn");
+
+const noBtn = document.getElementById("noBtn");
+
+let yesScale = 1;
+
+if (noBtn && yesBtn) {
+
+    noBtn.addEventListener("mouseover", () => {
+
+        const maxX = window.innerWidth - 180;
+
+        const maxY = 250;
+
+        const x = Math.random() * maxX;
+
+        const y = Math.random() * maxY;
+
+        noBtn.style.left = x + "px";
+
+        noBtn.style.top = y + "px";
+
+        yesScale += 0.08;
+
+        yesBtn.style.transform = `scale(${yesScale})`;
+
+    });
+
+    yesBtn.addEventListener("click", () => {
+
+        document.body.innerHTML = `
+
+        <div style="
+        height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        text-align:center;
+        background:linear-gradient(135deg,#ff7eb3,#ff758c,#ffc3a0);
+        color:white;
+        font-family:Poppins,sans-serif;
+        ">
+
+        <h1 style="font-size:70px;">🎉 YAYYYYY!! ❤️</h1>
+
+        <h2>I knew you'd choose me! 🥹❤️</h2>
+
+        <p style="font-size:28px;max-width:800px;padding:20px;line-height:1.8;">
+
+        Happy First Anniversary Miss. Clumsy ❤️
+
+        Thank you for choosing me every single day.
+
+        I promise to keep loving you,
+
+        annoying you,
+
+        making you laugh,
+
+        and standing beside you
+
+        through every chapter of our story.
+
+        I love you forever. ❤️
+
+        <br><br>
+
+        — Mr. Khadoos
+
+        </p>
+
+        </div>
+
+        `;
+
+    });
+
+}
