@@ -448,6 +448,7 @@ setInterval(()=>{
     "My Dearest Anisha";
 
     document.getElementById("finalMessage").innerHTML =
+const finalText =
 
 `14 July 2025
 
@@ -476,6 +477,59 @@ It's only Chapter One.
 Forever Yours,
 
 Mr. Khadoos ❤️`;
+
+const message=document.getElementById("finalMessage");
+
+message.innerHTML="";
+
+let i=0;
+
+function typeFinal(){
+
+    if(i<finalText.length){
+
+        message.innerHTML+=finalText.charAt(i);
+
+        i++;
+
+        setTimeout(typeFinal,45);
+
+    }
+
+}
+
+typeFinal();
+                setTimeout(()=>{
+
+    const music=document.getElementById("bgMusic");
+
+    if(music){
+
+        let volume=1;
+
+        const fade=setInterval(()=>{
+
+            volume-=0.05;
+
+            if(volume<=0){
+
+                music.pause();
+
+                clearInterval(fade);
+
+            }
+
+            else{
+
+                music.volume=volume;
+
+            }
+
+        },500);
+
+    }
+
+},20000);
 
 },6000);
 
