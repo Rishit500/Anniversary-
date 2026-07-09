@@ -400,7 +400,47 @@ I Love You. ❤️
     const finalScreen = document.getElementById("finalScreen");
 
     finalScreen.style.display = "flex";
+// ⭐ Stars
 
+for(let i=0;i<80;i++){
+
+    const star=document.createElement("div");
+
+    star.className="star";
+
+    star.style.left=Math.random()*100+"vw";
+
+    star.style.top=Math.random()*100+"vh";
+
+    star.style.animationDelay=Math.random()*2+"s";
+
+    finalScreen.appendChild(star);
+
+}
+
+// ❤️ Hearts
+
+setInterval(()=>{
+
+    const heart=document.createElement("div");
+
+    heart.className="finalHeart";
+
+    heart.innerHTML="❤️";
+
+    heart.style.left=Math.random()*100+"vw";
+
+    heart.style.fontSize=(20+Math.random()*20)+"px";
+
+    finalScreen.appendChild(heart);
+
+    setTimeout(()=>{
+
+        heart.remove();
+
+    },7000);
+
+},300);
     document.getElementById("finalTitle").innerHTML =
     "❤️ Happy First Anniversary ❤️";
 
