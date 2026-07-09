@@ -1121,3 +1121,48 @@ transform:translateY(0);
     }
 
 }
+/* ================= SECRET MESSAGE ================= */
+
+#secretMessage{
+
+    display:none;
+
+    margin-top:40px;
+
+    font-size:28px;
+
+    line-height:2;
+
+    color:white;
+
+    animation:fadeIn 2s ease;
+
+}
+
+#finalTitle{
+
+    animation:glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+    from{
+
+        text-shadow:0 0 10px white;
+
+    }
+
+    to{
+
+        text-shadow:
+
+        0 0 20px #ffb3d9,
+
+        0 0 40px hotpink,
+
+        0 0 60px white;
+
+    }
+
+}
