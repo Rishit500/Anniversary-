@@ -1299,3 +1299,64 @@ transform:translateY(0);
     }
 
 }
+/* ================= ENVELOPE ================= */
+
+.envelopeBox{
+
+    text-align:center;
+
+}
+
+.envelope{
+
+    font-size:120px;
+
+    animation:floatEnvelope 2s infinite ease-in-out;
+
+}
+
+@keyframes floatEnvelope{
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+}
+
+#openLetter{
+
+    margin-top:30px;
+
+    padding:18px 40px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#ff4f8b;
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+#openLetter:hover{
+
+    transform:scale(1.08);
+
+}
+
+#letterCard{
+
+    display:none;
+
+    animation:fadeLetter 1.2s ease;
+
+}
