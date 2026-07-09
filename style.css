@@ -1056,3 +1056,68 @@ transform:translateY(0);
     white-space:pre-line;
 
 }
+/* ================= FINAL EFFECTS ================= */
+
+.star{
+
+    position:absolute;
+
+    width:4px;
+
+    height:4px;
+
+    background:white;
+
+    border-radius:50%;
+
+    animation:twinkle 2s infinite alternate;
+
+}
+
+@keyframes twinkle{
+
+    from{
+
+        opacity:.2;
+        transform:scale(.5);
+
+    }
+
+    to{
+
+        opacity:1;
+        transform:scale(1.5);
+
+    }
+
+}
+
+.finalHeart{
+
+    position:absolute;
+
+    bottom:-50px;
+
+    font-size:28px;
+
+    animation:heartFloat 7s linear forwards;
+
+}
+
+@keyframes heartFloat{
+
+    from{
+
+        transform:translateY(0);
+        opacity:1;
+
+    }
+
+    to{
+
+        transform:translateY(-110vh);
+        opacity:0;
+
+    }
+
+}
