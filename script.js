@@ -393,6 +393,15 @@ I Love You. ❤️
     `;
 
     document.body.appendChild(celebration);
+            confetti({
+
+    particleCount:250,
+
+    spread:180,
+
+    origin:{y:0.6}
+
+});
             setTimeout(()=>{
 
     celebration.remove();
@@ -443,6 +452,18 @@ setInterval(()=>{
 },300);
     document.getElementById("finalTitle").innerHTML =
     "❤️ Happy First Anniversary ❤️";
+   
+// 👇 Paste it HERE
+document.getElementById("finalTitle").style.cursor = "pointer";
+
+document.getElementById("finalTitle").addEventListener("click", () => {
+
+    document.getElementById("secretMessage").style.display = "block";
+
+});
+
+document.getElementById("finalSubtitle").innerHTML =
+"My Dearest Anisha";
 
     document.getElementById("finalSubtitle").innerHTML =
     "My Dearest Anisha";
