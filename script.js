@@ -346,7 +346,6 @@ if (noBtn && yesBtn) {
 
     });
 
-    yesBtn.addEventListener("click", () => {
         yesBtn.addEventListener("click", () => {
 
     const celebration = document.createElement("div");
@@ -354,11 +353,46 @@ if (noBtn && yesBtn) {
     celebration.className = "celebration";
 
     celebration.innerHTML = `
-        ...
+        <h1>🎉 Happy First Anniversary ❤️</h1>
+
+<h2>Miss. Clumsy ❤️</h2>
+
+<p>
+
+365 beautiful days...
+
+Countless smiles...
+
+Thousands of memories...
+
+And a lifetime of love still waiting for us.
+
+<br><br>
+
+From Enemies ➜ Best Friends ➜ Soulmates ❤️
+
+<br><br>
+
+Thank you for choosing me every single day.
+
+I promise to keep loving you,
+
+making you laugh,
+
+annoying you,
+
+protecting you,
+
+and standing beside you forever.
+
+<br><br>
+
+I Love You. ❤️
+</p>
+
     `;
 
     document.body.appendChild(celebration);
 
 });
-
 }
