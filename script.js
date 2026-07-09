@@ -285,7 +285,12 @@ Meri Love. 💖
 From Enemies ➜ Best Friends ➜ Soulmates ✨
 
 Forever Yours,
-
+P.S. —
+No matter how many anniversaries we celebrate,
+I'll always choose you.
+Again.
+Again.
+And forever. ❤️
 Rishit ❤️
 
 `;
