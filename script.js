@@ -218,3 +218,96 @@ if (nextBtn && prevBtn && pages.length > 0) {
     });
 
 }
+// ================= LOVE LETTER =================
+
+const letter = `
+
+My Dearest Anisha, ❤️
+
+365 days...
+Aur sach kahun?
+
+Agar kisi ne mujhe ek saal pehle bola hota ki jis ladki se main itna ladta hoon, wahi meri poori duniya ban jayegi...
+toh shayad main kabhi believe hi nahi karta.
+
+Humari story kisi fairy tale ki tarah shuru nahi hui thi.
+
+Pehle arguments the...
+Taunts the...
+Ego tha...
+Aur shayad thodi si nafrat bhi. 😅
+
+Lekin shayad isi liye humari story itni special hai.
+
+Dheere dheere woh fights conversations ban gayi...
+Conversations smiles ban gayi...
+Aur smiles... pyaar mein badal gayi. ❤️
+
+Aaj jab main peeche mudkar dekhta hoon,
+toh lagta hai ki har chhoti si fight,
+har misunderstanding,
+aur har coincidence humein ek dusre tak lane ke liye hi tha.
+
+Thank you meri jaan... ❤️
+
+Mere mood swings handle karne ke liye...
+Meri bakwaas sunne ke liye...
+Mujhe samajhne ke liye jab main khud ko bhi nahi samajh pata...
+Aur meri life ke har ordinary din ko beautiful memory banane ke liye.
+
+Hum ladte hain...
+Kabhi kabhi bahut zyada. 😂
+
+Lekin ek baat kabhi nahi badli...
+
+Din ke end mein,
+meri first thought bhi tum ho...
+aur meri last smile bhi tumhari wajah se hoti hai.
+
+Tum sirf meri girlfriend nahi ho...
+
+Tum meri best friend ho.
+Meri comfort ho.
+Meri peace ho.
+Aur meri favourite place ho. 🫂❤️
+
+Aaj humari love story ka sirf Chapter One complete hua hai.
+
+Main chahta hoon ki aage aur bhi hazaar chapters likhein...
+
+Aur har chapter mein sirf ek hi heroine ho...
+
+Tum. ❤️
+
+Happy First Anniversary,
+Meri Love. 💖
+
+From Enemies ➜ Best Friends ➜ Soulmates ✨
+
+Forever Yours,
+
+Rishit ❤️
+
+`;
+
+const typingText = document.getElementById("typingText");
+
+let index = 0;
+
+function typeLetter() {
+
+    if (!typingText) return;
+
+    if (index < letter.length) {
+
+        typingText.innerHTML += letter.charAt(index);
+
+        index++;
+
+        setTimeout(typeLetter, 40);
+
+    }
+
+}
+
+typeLetter();
