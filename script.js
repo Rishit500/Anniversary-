@@ -583,3 +583,26 @@ function revealSections(){
 window.addEventListener("scroll", revealSections);
 
 window.addEventListener("load", revealSections);
+// ================= OPEN LETTER =================
+
+const openLetter=document.getElementById("openLetter");
+
+const letterCard=document.getElementById("letterCard");
+
+if(openLetter){
+
+    openLetter.addEventListener("click",()=>{
+
+        document.querySelector(".envelopeBox").style.display="none";
+
+        letterCard.style.display="block";
+
+        typingText.innerHTML="";
+
+        index=0;
+
+        typeLetter();
+
+    });
+
+}
