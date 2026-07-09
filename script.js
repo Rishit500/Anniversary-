@@ -393,6 +393,51 @@ I Love You. ❤️
     `;
 
     document.body.appendChild(celebration);
+            setTimeout(()=>{
+
+    celebration.remove();
+
+    const finalScreen = document.getElementById("finalScreen");
+
+    finalScreen.style.display = "flex";
+
+    document.getElementById("finalTitle").innerHTML =
+    "❤️ Happy First Anniversary ❤️";
+
+    document.getElementById("finalSubtitle").innerHTML =
+    "My Dearest Anisha";
+
+    document.getElementById("finalMessage").innerHTML =
+
+`14 July 2025
+
+↓
+
+Forever
+
+❤️
+
+From Enemies
+
+↓
+
+Best Friends
+
+↓
+
+Soulmates
+
+❤️
+
+This isn't the end...
+
+It's only Chapter One.
+
+Forever Yours,
+
+Mr. Khadoos ❤️`;
+
+},6000);
 
 });
 }
