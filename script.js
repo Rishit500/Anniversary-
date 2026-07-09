@@ -347,53 +347,18 @@ if (noBtn && yesBtn) {
     });
 
     yesBtn.addEventListener("click", () => {
+        yesBtn.addEventListener("click", () => {
 
-        document.body.innerHTML = `
+    const celebration = document.createElement("div");
 
-        <div style="
-        height:100vh;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        flex-direction:column;
-        text-align:center;
-        background:linear-gradient(135deg,#ff7eb3,#ff758c,#ffc3a0);
-        color:white;
-        font-family:Poppins,sans-serif;
-        ">
+    celebration.className = "celebration";
 
-        <h1 style="font-size:70px;">🎉 YAYYYYY!! ❤️</h1>
+    celebration.innerHTML = `
+        ...
+    `;
 
-        <h2>I knew you'd choose me! 🥹❤️</h2>
+    document.body.appendChild(celebration);
 
-        <p style="font-size:28px;max-width:800px;padding:20px;line-height:1.8;">
-
-        Happy First Anniversary Miss. Clumsy ❤️
-
-        Thank you for choosing me every single day.
-
-        I promise to keep loving you,
-
-        annoying you,
-
-        making you laugh,
-
-        and standing beside you
-
-        through every chapter of our story.
-
-        I love you forever. ❤️
-
-        <br><br>
-
-        — Mr. Khadoos
-
-        </p>
-
-        </div>
-
-        `;
-
-    });
+});
 
 }
