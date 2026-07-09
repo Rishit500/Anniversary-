@@ -738,3 +738,80 @@ transform:translateY(0);
 }
 
 }
+/* ================= LOVE LETTER ================= */
+
+.loveLetter{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:100px 20px;
+
+}
+
+.letterCard{
+
+    width:90%;
+
+    max-width:900px;
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(15px);
+
+    border-radius:30px;
+
+    padding:60px;
+
+    text-align:center;
+
+    box-shadow:0 25px 70px rgba(0,0,0,.25);
+
+}
+
+.letterCard h2{
+
+    font-size:45px;
+
+    color:white;
+
+    margin-bottom:40px;
+
+}
+
+#typingText{
+
+    color:white;
+
+    font-size:23px;
+
+    line-height:2;
+
+    min-height:350px;
+
+    white-space:pre-line;
+
+}
+
+.signature{
+
+    margin-top:40px;
+
+    color:#ffd4e8;
+
+    font-size:32px;
+
+}
+
+.signature span{
+
+    color:white;
+
+}
