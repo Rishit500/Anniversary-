@@ -201,6 +201,8 @@ prevBtn.addEventListener("click", ()=>{
 });
 // ================= MUSIC =================
 
+// ================= MUSIC =================
+
 const music = document.getElementById("bgMusic");
 const playMusicBtn = document.getElementById("playMusic");
 
