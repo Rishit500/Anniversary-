@@ -315,7 +315,7 @@ function typeLetter() {
 
 }
 
-typeLetter();
+
 // ================= YES / NO GAME =================
 
 const yesBtn = document.getElementById("yesBtn");
@@ -462,13 +462,11 @@ document.getElementById("finalTitle").addEventListener("click", () => {
 
 });
 
-document.getElementById("finalSubtitle").innerHTML =
-"My Dearest Anisha";
 
     document.getElementById("finalSubtitle").innerHTML =
     "My Dearest Anisha";
 
-    document.getElementById("finalMessage").innerHTML =
+    
         const finalText =
 
 
@@ -499,8 +497,9 @@ It's only Chapter One.
 Forever Yours,
 
 Mr. Khadoos ❤️`;
+const message = document.getElementById("finalMessage");
 
-const message=document.getElementById("finalMessage");
+if(message){
 
 message.innerHTML="";
 
@@ -521,6 +520,9 @@ function typeFinal(){
 }
 
 typeFinal();
+
+}
+
                 setTimeout(()=>{
 
     const music=document.getElementById("bgMusic");
