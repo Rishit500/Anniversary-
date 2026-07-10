@@ -465,18 +465,15 @@ document.getElementById("finalTitle").addEventListener("click", () => {
 
     document.getElementById("finalSubtitle").innerHTML =
     "My Dearest Anisha";
+const finalText = `❤️
 
-    
-        const finalText =
-
-
-`14 July 2025
+14 July 2025
 
 ↓
 
 Forever
 
-❤️
+↓
 
 From Enemies
 
@@ -490,13 +487,17 @@ Soulmates
 
 ❤️
 
-This isn't the end...
+365 Days Down...
+Forever To Go.
 
-It's only Chapter One.
+Happy First Anniversary
+
+My Dearest Anisha
 
 Forever Yours,
+Rishit ❤️`;
+    
 
-Mr. Khadoos ❤️`;
 const message = document.getElementById("finalMessage");
 
 if(message){
