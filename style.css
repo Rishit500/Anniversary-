@@ -1387,3 +1387,36 @@ transform:translateY(0);
     transform:scale(1.08);
 
 }
+/* ================= CONTINUE BUTTON ================= */
+
+.continueBtn{
+
+    margin-top:40px;
+
+    padding:18px 40px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:linear-gradient(135deg,#ff4f8b,#ff7eb3);
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 10px 30px rgba(255,79,139,.4);
+
+}
+
+.continueBtn:hover{
+
+    transform:scale(1.08);
+
+}
