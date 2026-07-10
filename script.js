@@ -457,10 +457,7 @@ setInterval(()=>{
 <div class="titleLine"></div>
 `;
 
-❤️ Happy First Anniversary ❤️
 
-<div class="titleLine"></div>
-`;
    
 document.getElementById("finalTitle").style.cursor = "pointer";
 
@@ -595,7 +592,7 @@ function revealSections(){
 window.addEventListener("scroll", revealSections);
 
 window.addEventListener("load", revealSections);
-// ================= OPEN LETTER =================
+// ================= OPEN LETTER =================// 
 
 const openLetter=document.getElementById("openLetter");
 
