@@ -609,3 +609,18 @@ if(openLetter){
     });
 
 }
+const continueBtn = document.getElementById("continueStory");
+
+if (continueBtn) {
+
+    continueBtn.addEventListener("click", () => {
+
+        document.getElementById("proposalSection").scrollIntoView({
+
+            behavior: "smooth"
+
+        });
+
+    });
+
+}
