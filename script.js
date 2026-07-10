@@ -145,17 +145,11 @@ if (exploreBtn) {
 
     exploreBtn.addEventListener("click", () => {
 
-        const about = document.querySelector(".about");
+        document.querySelector(".about").scrollIntoView({
 
-        if (about) {
+            behavior: "smooth"
 
-            about.scrollIntoView({
-
-                behavior: "smooth"
-
-            });
-
-        }
+        });
 
     });
 
