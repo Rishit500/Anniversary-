@@ -326,25 +326,31 @@ let yesScale = 1;
 
 if (noBtn && yesBtn) {
 
-    noBtn.addEventListener("mouseover", () => {
+ noBtn.addEventListener("mouseover", () => {
 
-        const maxX = window.innerWidth - 180;
+    const maxX = window.innerWidth - noBtn.offsetWidth - 20;
 
-        const maxY = 250;
+    const maxY = window.innerHeight - noBtn.offsetHeight - 20;
 
-        const x = Math.random() * maxX;
+    const x = Math.random() * maxX;
 
-        const y = Math.random() * maxY;
+    const y = Math.random() * maxY;
 
-        noBtn.style.left = x + "px";
+    noBtn.style.position = "fixed";
 
-        noBtn.style.top = y + "px";
+    noBtn.style.left = x + "px";
 
-        yesScale += 0.08;
+    noBtn.style.top = y + "px";
+
+    if (yesScale < 2) {
+
+        yesScale += 0.05;
 
         yesBtn.style.transform = `scale(${yesScale})`;
 
-    });
+    }
+
+});
 
         yesBtn.addEventListener("click", () => {
 
