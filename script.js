@@ -21,11 +21,11 @@ window.addEventListener("load", () => {
 
                 loader.style.display = "none";
 
-            }, 1000);
+            }, 600);
 
         }
 
-    }, 2500);
+    }, 1200);
 
 });
 
