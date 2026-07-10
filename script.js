@@ -449,8 +449,18 @@ setInterval(()=>{
     },7000);
 
 },300);
-    document.getElementById("finalTitle").innerHTML =
-    "❤️ Happy First Anniversary ❤️";
+                document.getElementById("finalTitle").innerHTML = `
+<div class="finalDate">14 July 2025</div>
+
+❤️ Happy First Anniversary ❤️
+
+<div class="titleLine"></div>
+`;
+
+❤️ Happy First Anniversary ❤️
+
+<div class="titleLine"></div>
+`;
    
 // 👇 Paste it HERE
 document.getElementById("finalTitle").style.cursor = "pointer";
