@@ -513,7 +513,7 @@ function typeFinal(){
 
         i++;
 
-        setTimeout(typeFinal,45);
+        setTimeout(typeFinal,20);
 
     }
 
@@ -555,7 +555,7 @@ typeFinal();
 
 },20000);
 
-},6000);
+},600);
 
 });
 }
