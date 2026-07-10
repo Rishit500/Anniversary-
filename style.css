@@ -1360,3 +1360,30 @@ transform:translateY(0);
     animation:fadeLetter 1.2s ease;
 
 }
+.continueBtn{
+
+    margin-top:40px;
+
+    padding:18px 40px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#ff4f8b;
+
+    color:white;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.continueBtn:hover{
+
+    transform:scale(1.08);
+
+}
