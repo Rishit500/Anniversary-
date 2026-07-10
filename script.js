@@ -462,7 +462,6 @@ setInterval(()=>{
 <div class="titleLine"></div>
 `;
    
-// 👇 Paste it HERE
 document.getElementById("finalTitle").style.cursor = "pointer";
 
 document.getElementById("finalTitle").addEventListener("click", () => {
