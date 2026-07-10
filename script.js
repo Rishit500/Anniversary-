@@ -610,20 +610,17 @@ if(openLetter){
     });
 
 }
+// ================= CONTINUE STORY =================
+
 const continueBtn = document.getElementById("continueStory");
 
 if (continueBtn) {
 
     continueBtn.addEventListener("click", () => {
 
-     document.getElementById("proposalSection").scrollIntoView({
-
-    behavior: "smooth",
-
-    block: "center"
-
-});
-
+        document.getElementById("proposalSection").scrollIntoView({
+            behavior: "smooth",
+            block: "center"
         });
 
     });
