@@ -616,10 +616,13 @@ if (continueBtn) {
 
     continueBtn.addEventListener("click", () => {
 
-        document.getElementById("proposalSection").scrollIntoView({
+     document.getElementById("proposalSection").scrollIntoView({
 
-            behavior: "smooth"
-            block: "center"
+    behavior: "smooth",
+
+    block: "center"
+
+});
 
         });
 
