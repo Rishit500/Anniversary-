@@ -1533,3 +1533,31 @@ transform:translateY(0);
     }
 
 }
+.finalDate{
+
+    font-size:18px;
+
+    letter-spacing:3px;
+
+    opacity:.85;
+
+    margin-bottom:12px;
+
+    color:#ffd6e7;
+
+}
+
+.titleLine{
+
+    width:180px;
+
+    height:2px;
+
+    margin:18px auto;
+
+    background:linear-gradient(to right,
+        transparent,
+        rgba(255,255,255,.9),
+        transparent);
+
+}
