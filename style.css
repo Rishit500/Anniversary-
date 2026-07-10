@@ -1071,17 +1071,25 @@ transform:translateY(0);
 }
 #finalMessage{
 
-    font-size:18px;
+    width:100%;
 
-    line-height:1.6;
+    font-size:17px;
 
-    white-space:pre-line;
+    line-height:1.55;
 
     overflow-y:auto;
 
-    width:100%;
+    padding:8px;
 
-    padding-right:5px;
+    white-space:pre-line;
+
+    scrollbar-width:none;
+
+}
+
+#finalMessage::-webkit-scrollbar{
+
+    display:none;
 
 }
 
@@ -1454,22 +1462,27 @@ transform:translateY(0);
 
 .portraitFrame{
 
-    width:220px;
+    width:230px;
 
-    height:300px;
-
-    border-radius:22px;
-
-    overflow:hidden;
+    height:320px;
 
     margin:15px 0 20px;
 
-    border:5px solid rgba(255,255,255,.45);
+    border-radius:24px;
 
-    box-shadow:0 15px 35px rgba(0,0,0,.35);
+    overflow:hidden;
+
+    background:white;
+
+    padding:6px;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.35),
+        0 0 25px rgba(255,192,203,.25);
+
+    animation:floatPhoto 5s ease-in-out infinite;
 
 }
-
 #finalPhoto{
 
     width:100%;
@@ -1477,5 +1490,46 @@ transform:translateY(0);
     height:100%;
 
     object-fit:cover;
+
+    border-radius:18px;
+
+    animation:zoomPhoto 18s linear infinite;
+
+}
+@keyframes zoomPhoto{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    100%{
+
+        transform:scale(1.12);
+
+    }
+
+}
+
+@keyframes floatPhoto{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-8px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
 
 }
