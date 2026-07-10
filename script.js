@@ -159,7 +159,6 @@ if (exploreBtn) {
 // Memory Book
 // -------------------------------
 
-console.log("Memory Book Loaded");
 
 const pages = document.querySelectorAll(".page");
 
