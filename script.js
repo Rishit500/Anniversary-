@@ -618,6 +618,7 @@ if (continueBtn) {
         document.getElementById("proposalSection").scrollIntoView({
 
             behavior: "smooth"
+            block: "center"
 
         });
 
