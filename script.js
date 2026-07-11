@@ -532,16 +532,18 @@ function typeFinal(){
     }
 
 }
-
 typeFinal();
 
 }
 
+}, 5000);
+
 });
+
 }
+
 // =======================================
 // PREMIUM SCROLL ANIMATION
-// =======================================
 
 const reveals = document.querySelectorAll(".reveal");
 
