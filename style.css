@@ -1002,20 +1002,18 @@ transform:translateY(0);
     z-index:10000;
 
 }
-
-#finalScreen img{
-
-    position:absolute;
-
+#finalPhoto{
+    position:relative;
     width:100%;
-
     height:100%;
-
+    display:block;
     object-fit:cover;
-
-    filter:brightness(.35);
-
+    object-position:center center;
+    border-radius:18px;
+    filter:none;
+    animation:zoomPhoto 18s linear infinite;
 }
+
 
 .finalOverlay{
 
@@ -1560,26 +1558,4 @@ transform:translateY(0);
         rgba(255,255,255,.9),
         transparent);
 
-}
-/* ===== FINAL PORTRAIT PHOTO FIX ===== */
-
-#finalScreen .portraitFrame{
-    width:230px;
-    height:300px;
-    padding:6px;
-    margin:12px auto 18px;
-    border-radius:24px;
-    overflow:hidden;
-    box-sizing:border-box;
-}
-
-#finalScreen .portraitFrame #finalPhoto{
-    position:static;
-    width:100%;
-    height:100%;
-    display:block;
-    object-fit:cover;
-    object-position:center;
-    border-radius:18px;
-    filter:none;
 }
