@@ -538,36 +538,7 @@ typeFinal();
 }
 
                 setTimeout(()=>{
-
-    const music=document.getElementById("bgMusic");
-
-    if(music){
-
-        let volume=1;
-
-        const fade=setInterval(()=>{
-
-            volume-=0.05;
-
-            if(volume<=0){
-
-                music.pause();
-
-                clearInterval(fade);
-
-            }
-
-            else{
-
-                music.volume=volume;
-
-            }
-
-        },500);
-
-    }
-
-},20000);
+  
 
 },5000);
 
