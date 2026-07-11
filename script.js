@@ -458,7 +458,7 @@ setInterval(()=>{
 
 },300);
                 document.getElementById("finalTitle").innerHTML = `
-<div class="finalDate">14 July 2026</div>
+<div class="finalDate">14 July 2025</div>
 
 ❤️ Happy First Anniversary ❤️
 
