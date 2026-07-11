@@ -408,6 +408,14 @@ I Love You. ❤️
     const finalScreen = document.getElementById("finalScreen");
 
     finalScreen.style.display = "flex";
+  setTimeout(() => {
+
+    finalScreen.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+
+}, 100);
 // ⭐ Stars
 
 for(let i=0;i<80;i++){
