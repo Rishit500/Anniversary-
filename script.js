@@ -272,7 +272,7 @@ Aur har chapter mein sirf ek hi heroine ho...
 
 Tum. ❤️
 
-Happy First Anniversary,
+Happy First Year to Uss ,
 Meri Love. 💖
 
 From Enemies ➜ Best Friends ➜ Soulmates ✨
@@ -352,7 +352,7 @@ if (noBtn && yesBtn) {
     celebration.className = "celebration";
 
     celebration.innerHTML = `
-        <h1>🎉 Happy First Anniversary ❤️</h1>
+        <h1>🎉 Happy First Year to Usss ❤️</h1>
 
 <h2>Miss. Clumsy ❤️</h2>
 
@@ -460,7 +460,7 @@ setInterval(()=>{
                 document.getElementById("finalTitle").innerHTML = `
 <div class="finalDate">14 July 2025</div>
 
-❤️ Happy First Anniversary ❤️
+❤️ Happy First Year ❤️
 
 <div class="titleLine"></div>
 `;
